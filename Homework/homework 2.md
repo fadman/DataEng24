@@ -143,8 +143,8 @@ if 'data_exporter' not in globals():
     from mage_ai.data_preparation.decorators import data_exporter
 
 # update the variables below
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/home/src/lustrous-bonito-411623-3446485d5ecd.json'
-project_id = 'lustrous-bonito-411623'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/home/src/--'
+project_id = 'lustrous-bonito-41233'
 bucket_name = 'mage-zoomcamp-fad'
 object_key = 'green_nyc_taxi_data.parquet'
 table_name = 'green_taxi'
